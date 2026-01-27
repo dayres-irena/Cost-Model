@@ -257,7 +257,7 @@ st.markdown("""<SPAN class=li>Initial assessment</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("While the exact figures are difficult to provide without specific company details, a general range is used, which we assume to be similar across different countries:")
 st.markdown("""<SPAN class=li>Small to medium-sized manufacturers (under 2-3 GW): USD 10 000 â€“ USD 50 000</SPAN> 
-<SPAN class=li>Large manufacturers (from 3 GW): USD 50 000 - USD 200 000</SPAN>
+<SPAN class=li>Large manufacturers (from 3 GW): USD50 000 - USD200 000</SPAN>
 <SPAN class=li>Ongoing costs: Annual maintenance and re-certification fees can range from USD 5 000 to USD 50 000</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("Based on consultations with ESG certification stakeholders, cost variations across countries are minimal; therefore, the model assumes uniform costs across all selected countries.")
@@ -268,7 +268,7 @@ st.markdown("""Domestic manufacturing generally has higher costs, particularly w
 
 Manufacturing costs vary significantly across countries due to differences in key input factors:""")
 st.markdown("""<SPAN class=li><b>Vietnam</b> benefits from cost levels comparable to China, thanks to its geographic proximity to suppliers, low labour costs, and affordable electricity.</SPAN> 
-<SPAN class=li><b>India</b> also enjoys low labor costs but faces higher production expenses in 2024, mainly due to elevated electricity tariffs.</SPAN>
+<SPAN class=li><b>India</b> also enjoys low labour costs but faces higher production expenses in 2024, mainly due to elevated electricity tariffs.</SPAN>
 <SPAN class=li>Australia, the United States, and European countries all experience higher manufacturing costs, though for slightly different reasons:</SPAN>
 <SPAN class=subli>In <b>Australia</b>, high electricity, labour, and building and facilities costs are the main drivers.</SPAN>
 <SPAN class=subli>In the <b>United States</b>, labour, building and facilities costs are particularly expensive, although electricity prices vary by region and can be relatively low.</SPAN>
@@ -301,6 +301,4 @@ This dashboard for results visualization and the material herein are provided â€
 </div>
 """, unsafe_allow_html=True)
 
-
 ########################################
-
