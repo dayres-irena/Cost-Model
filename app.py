@@ -257,7 +257,7 @@ st.markdown("""<SPAN class=li>Initial assessment</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("While the exact figures are difficult to provide without specific company details, a general range is used, which we assume to be similar across different countries:")
 st.markdown("""<SPAN class=li>Small to medium-sized manufacturers (under 2-3 GW): USD 10 000 – USD 50 000</SPAN> 
-<SPAN class=li>Large manufacturers (from 3 GW): USD50 000 - USD200 000</SPAN>
+<SPAN class=li>Large manufacturers (from 3 GW): USD 50 000 - USD 200 000</SPAN>
 <SPAN class=li>Ongoing costs: Annual maintenance and re-certification fees can range from USD 5 000 to USD 50 000</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("Based on consultations with ESG certification stakeholders, cost variations across countries are minimal; therefore, the model assumes uniform costs across all selected countries.")
@@ -300,5 +300,6 @@ st.markdown("""
 This dashboard for results visualization and the material herein are provided “as is.” While all reasonable precautions have been taken by IRENA to verify the reliability of the content, IRENA makes no warranty, expressed or implied, and accepts no responsibility for any consequences arising from its use. The findings, interpretations, and conclusions expressed do not necessarily represent the views of all IRENA Members. Mention of specific companies or products does not imply endorsement. All references to countries or territories are for statistical or analytical convenience and do not imply any judgment concerning their legal status or national boundaries.
 </div>
 """, unsafe_allow_html=True)
+
 
 ########################################
