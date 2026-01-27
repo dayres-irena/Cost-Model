@@ -54,7 +54,7 @@ st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:S
 st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Source Sans Pro;color:white'>
 The IRENA Solar PV Manufacturing Cost Model is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
 <br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Model</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
-<br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to model the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The model allows users to analyze the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
+<br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to model the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The model allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
 <br>The model is designed to empower policymakers, investors, and industry strategists by enabling them to quantify the impact of policy levers (e.g., tariffs, local content incentives), identify sources of national competitive advantage, and guide strategic investments required to build resilient and diversified solar PV supply chains through 2030.
 <br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>PV Supply Chain Cost Model Methodology, Results and Analysis.</b></u>
 </p>""", unsafe_allow_html=True)
@@ -264,15 +264,15 @@ st.markdown("Based on consultations with ESG certification stakeholders, cost va
 st.markdown("""Please refer to the publication "Solar PV supply chains: Technical and ESG standards for market integration" available at IRENA website <a href='https://www.irena.org/Publications/2024/Sep/Solar-PV-supply-chains-Technical-and-ESG-standards-for-market-integration'>here</a>.""", unsafe_allow_html=True)
 
 st.markdown("#### Main findings and highlights")
-st.markdown("""Domestic manufacturing generally has higher costs, particularly when compared to importing components from lower-cost international markets. The most significant cost reductions are observed when importing cells, underscoring the competitive price advantage of established and mature manufacturing centers abroad.
+st.markdown("""Domestic manufacturing generally has higher costs, particularly when compared to importing components from lower-cost international markets. The most significant cost reductions are observed when importing cells, underscoring the competitive price advantage of established and mature manufacturing centres abroad.
 
 Manufacturing costs vary significantly across countries due to differences in key input factors:""")
-st.markdown("""<SPAN class=li><b>Vietnam</b> benefits from cost levels comparable to China, thanks to its geographic proximity to suppliers, low labor costs, and affordable electricity.</SPAN> 
+st.markdown("""<SPAN class=li><b>Vietnam</b> benefits from cost levels comparable to China, thanks to its geographic proximity to suppliers, low labour costs, and affordable electricity.</SPAN> 
 <SPAN class=li><b>India</b> also enjoys low labor costs but faces higher production expenses in 2024, mainly due to elevated electricity tariffs.</SPAN>
 <SPAN class=li>Australia, the United States, and European countries all experience higher manufacturing costs, though for slightly different reasons:</SPAN>
-<SPAN class=subli>In <b>Australia</b>, high electricity, labor, and building and facilities costs are the main drivers.</SPAN>
-<SPAN class=subli>In the <b>United States</b>, labor, building and facilities costs are particularly expensive, although electricity prices vary by region and can be relatively low.</SPAN>
-<SPAN class=subli><b>European</b> manufacturers face a combination of high electricity rates and elevated labor and building and facilities costs, contributing to increased overall costs.</SPAN>
+<SPAN class=subli>In <b>Australia</b>, high electricity, labour, and building and facilities costs are the main drivers.</SPAN>
+<SPAN class=subli>In the <b>United States</b>, labour, building and facilities costs are particularly expensive, although electricity prices vary by region and can be relatively low.</SPAN>
+<SPAN class=subli><b>European</b> manufacturers face a combination of high electricity rates and elevated labour and building and facilities costs, contributing to increased overall costs.</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("The model demonstrates a clear tension between short-term market dynamics and long-term industry sustainability. While low-cost production in China have supported rapid solar deployment globally, these prices are significantly below sustainable production levels. This underscores the need for a balanced approach: maintaining affordability to support solar adoption while ensuring fair market conditions that enable manufacturers—both domestic and international—to operate sustainably.")
 #################################################################
@@ -303,3 +303,4 @@ This dashboard for results visualization and the material herein are provided �
 
 
 ########################################
+
