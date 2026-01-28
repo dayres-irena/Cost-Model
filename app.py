@@ -48,7 +48,7 @@ Flag_IMAGE="Images/flag.png"
 insert_logo(LOGO_IMAGE)
 
 
-st.markdown("<h3 style='text-align: center;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: left;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown("")
 st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Calibri;font-weight: 600;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Calibri;color:white'>
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
