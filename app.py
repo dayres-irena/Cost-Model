@@ -48,10 +48,10 @@ Flag_IMAGE="Images/flag.png"
 insert_logo(LOGO_IMAGE)
 
 
-st.markdown("<h3 style='text-align: center;font-family:Source Sans Pro;font-weight: 700;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;font-family:Verdana;font-weight: 700;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown("")
-st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Source Sans Pro;font-weight: 700;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
-st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Source Sans Pro;color:white'>
+st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Verdana;font-weight: 700;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Verdana;color:white'>
 The IRENA Solar PV Manufacturing Cost Tool is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
 <br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
 <br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to calculate the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The tool allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
@@ -278,13 +278,13 @@ st.markdown("The tool demonstrates a clear tension between short-term market dyn
 #################################################################
 #REFERENCES
 st.markdown("---")
-st.markdown("<h3 style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-top:25px;color:white;'font-family:Source Sans Pro;>References</h3>", unsafe_allow_html=True)
-st.markdown("""<p style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Source Sans Pro;color:white'>
+st.markdown("<h3 style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-top:25px;color:white;'font-family:Verdana;>References</h3>", unsafe_allow_html=True)
+st.markdown("""<p style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Verdana;color:white'>
 The information and data contained herein comes from the analysis supporting the report
 <b>"PV Supply Chain Cost Tool : Methodology, Results and Analysis"</b>.
 <br>Please refer to the report to dig deeper and further explore the analysis conducted, the methodology used, and the default assumptions considered.
 <br><br>
-<b><span style="font-size:1.5rem; font-family: Arial;">Acknowledgements</span></b><br>
+<b><span style="font-size:1.5rem; font-family: Verdana;">Acknowledgements</span></b><br>
 <SPAN class=li>The work was conducted under the strategic guidance of <b>Norela Constantinescu</b> (Acting Director, Innovation and Technology Centre, IRENA) and <b>Simon Benmarraze</b> (Team Lead, Technology and Infrastructure, IRENA).</SPAN>
 <SPAN class=li>The core tool development and analysis were conducted by <b>Aakarshan Vaid</b> (IRENA), <b>Alina Gilmanova</b> (IRENA), and <b>Deborah Ayres</b> (IRENA).</SPAN>     
 <SPAN class=li>The visualization dashboard was developed by <b>Rayan Dankar</b> (IRENA).</SPAN>
@@ -302,5 +302,6 @@ This dashboard for results visualization and the material herein are provided �
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
