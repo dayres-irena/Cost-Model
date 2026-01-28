@@ -281,7 +281,7 @@ st.markdown("---")
 st.markdown("<h3 style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-top:25px;color:white;'font-family:Verdana;>References</h3>", unsafe_allow_html=True)
 st.markdown("""<p style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Verdana;color:white'>
 The information and data contained herein comes from the analysis supporting the report
-<b>"PV Supply Chain Cost Tool : Methodology, Results and Analysis"</b>.
+<b>"PV Supply Chain Cost Tool: Methodology, Results and Analysis"</b>.
 <br>Please refer to the report to dig deeper and further explore the analysis conducted, the methodology used, and the default assumptions considered.
 <br><br>
 <b><span style="font-size:1.5rem; font-family: Verdana;">Acknowledgements</span></b><br>
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
