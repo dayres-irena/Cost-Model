@@ -5,7 +5,7 @@ import base64 #for images
 import plotly.express as px
 import re
 
-st.set_page_config(page_title='Solar Cost Model', layout = 'wide', page_icon = 'Images/logo2.png', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Solar Cost Tool', layout = 'wide', page_icon = 'Images/logo2.png', initial_sidebar_state = 'auto')
 def insert_logo(imagePath):
     st.markdown(
         f"""
@@ -48,15 +48,15 @@ Flag_IMAGE="Images/flag.png"
 insert_logo(LOGO_IMAGE)
 
 
-st.markdown("<h3 style='text-align: center;font-family:Source Sans Pro;font-weight: 700;'>IRENA Solar PV Manufacturing Cost Model</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;font-family:Source Sans Pro;font-weight: 700;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown("")
-st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Source Sans Pro;font-weight: 700;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Model</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Source Sans Pro;font-weight: 700;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Source Sans Pro;color:white'>
-The IRENA Solar PV Manufacturing Cost Model is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
-<br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Model</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
-<br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to model the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The model allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
-<br>The model is designed to empower policymakers, investors, and industry strategists by enabling them to quantify the impact of policy levers (e.g., tariffs, local content incentives), identify sources of national competitive advantage, and guide strategic investments required to build resilient and diversified solar PV supply chains through 2030.
-<br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>PV Supply Chain Cost Model Methodology, Results and Analysis.</b></u>
+The IRENA Solar PV Manufacturing Cost Tool is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
+<br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
+<br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to calculate the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The tool allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
+<br>The tool is designed to empower policymakers, investors, and industry strategists by enabling them to quantify the impact of policy levers (e.g., tariffs, local content incentives), identify sources of national competitive advantage, and guide strategic investments required to build resilient and diversified solar PV supply chains through 2030.
+<br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>PV Supply Chain Cost Tool Methodology, Results and Analysis.</b></u>
 </p>""", unsafe_allow_html=True)
 
 
@@ -94,9 +94,9 @@ SCENARIO_MAP = {
 }
 st.write("")
 st.write("#### Comparative Scenario Analysis for the Major Markets")
-st.write("To better assess the impact of various factors—such as trade policies and regional cost differences—this section compares domestic PV module production across the countries which data is available in the cost model: the **United States, Germany, India, Australia, Vietnam, and China**. These countries were selected due to their active policy support for local PV manufacturing.")
+st.write("To better assess the impact of various factors—such as trade policies and regional cost differences—this section compares domestic PV module production across the countries which data is available in the cost tool: the **United States, Germany, India, Australia, Vietnam, and China**. These countries were selected due to their active policy support for local PV manufacturing.")
 st.write("Results from the following scenarios are presented:")
-st.write("•	**Domestic manufacturing in 2025 and 2030:** The component is sourced within the manufacturing country and an increase in the manufacturing capacity between 2025 and 2030 is considered. For this comparison, the model assumes a manufacturing capacity of 50 tons for polysilicon and 4 GW for wafers, cells, and modules across all markets in 2025 and 6 GW for wafers, cells, and modules across all markets in 2030.")
+st.write("•	**Domestic manufacturing in 2025 and 2030:** The component is sourced within the manufacturing country and an increase in the manufacturing capacity between 2025 and 2030 is considered. For this comparison, the tool assumes a manufacturing capacity of 50 tons for polysilicon and 4 GW for wafers, cells, and modules across all markets in 2025 and 6 GW for wafers, cells, and modules across all markets in 2030.")
 st.write("•	**Imported components from China or Vietnam:** Polysilicon, wafer and cells are supplied from a different market than the manufacturing country of the solar PV module. The cost of final PV modules is presented considering polysilicon, wafer or cells, are imported from China or Vietnam, while all the module assembly is produced domestically. Manufacturing is only considered in 2025.")
 
 st.write("##### Key Steps:")
@@ -260,7 +260,7 @@ st.markdown("""<SPAN class=li>Small to medium-sized manufacturers (under 2-3 GW)
 <SPAN class=li>Large manufacturers (from 3 GW): USD 50 000 - USD 200 000</SPAN>
 <SPAN class=li>Ongoing costs: Annual maintenance and re-certification fees can range from USD 5 000 to USD 50 000</SPAN>
 """, unsafe_allow_html=True)
-st.markdown("Based on consultations with ESG certification stakeholders, cost variations across countries are minimal; therefore, the model assumes uniform costs across all selected countries.")
+st.markdown("Based on consultations with ESG certification stakeholders, cost variations across countries are minimal; therefore, the tool assumes uniform costs across all selected countries.")
 st.markdown("""Please refer to the publication "Solar PV supply chains: Technical and ESG standards for market integration" available at IRENA website <a href='https://www.irena.org/Publications/2024/Sep/Solar-PV-supply-chains-Technical-and-ESG-standards-for-market-integration'>here</a>.""", unsafe_allow_html=True)
 
 st.markdown("#### Main findings and highlights")
@@ -274,19 +274,19 @@ st.markdown("""<SPAN class=li><b>Vietnam</b> benefits from cost levels comparabl
 <SPAN class=subli>In the <b>United States</b>, labour, building and facilities costs are particularly expensive, although electricity prices vary by region and can be relatively low.</SPAN>
 <SPAN class=subli><b>European</b> manufacturers face a combination of high electricity rates and elevated labour and building and facilities costs, contributing to increased overall costs.</SPAN>
 """, unsafe_allow_html=True)
-st.markdown("The model demonstrates a clear tension between short-term market dynamics and long-term industry sustainability. While low-cost production in China have supported rapid solar deployment globally, these prices are significantly below sustainable production levels. This underscores the need for a balanced approach: maintaining affordability to support solar adoption while ensuring fair market conditions that enable manufacturers—both domestic and international—to operate sustainably.")
+st.markdown("The tool demonstrates a clear tension between short-term market dynamics and long-term industry sustainability. While low-cost production in China have supported rapid solar deployment globally, these prices are significantly below sustainable production levels. This underscores the need for a balanced approach: maintaining affordability to support solar adoption while ensuring fair market conditions that enable manufacturers—both domestic and international—to operate sustainably.")
 #################################################################
 #REFERENCES
 st.markdown("---")
 st.markdown("<h3 style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-top:25px;color:white;'font-family:Source Sans Pro;>References</h3>", unsafe_allow_html=True)
 st.markdown("""<p style='background-color:#58585A;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Source Sans Pro;color:white'>
 The information and data contained herein comes from the analysis supporting the report
-<b>"PV Supply Chain Cost Model : Methodology, Results and Analysis"</b>.
+<b>"PV Supply Chain Cost Tool : Methodology, Results and Analysis"</b>.
 <br>Please refer to the report to dig deeper and further explore the analysis conducted, the methodology used, and the default assumptions considered.
 <br><br>
 <b><span style="font-size:1.5rem; font-family: Arial;">Acknowledgements</span></b><br>
 <SPAN class=li>The work was conducted under the strategic guidance of <b>Norela Constantinescu</b> (Acting Director, Innovation and Technology Centre, IRENA) and <b>Simon Benmarraze</b> (Team Lead, Technology and Infrastructure, IRENA).</SPAN>
-<SPAN class=li>The core model development and analysis were conducted by <b>Aakarshan Vaid</b> (IRENA), <b>Alina Gilmanova</b> (IRENA), and <b>Deborah Ayres</b> (IRENA).</SPAN>     
+<SPAN class=li>The core tool development and analysis were conducted by <b>Aakarshan Vaid</b> (IRENA), <b>Alina Gilmanova</b> (IRENA), and <b>Deborah Ayres</b> (IRENA).</SPAN>     
 <SPAN class=li>The visualization dashboard was developed by <b>Rayan Dankar</b> (IRENA).</SPAN>
 <br>IRENA extends its sincere appreciation to the following external experts for their invaluable technical peer review and input: <b>Michael Woodhouse</b> (National Renewable Energy Laboratory - NREL), and<b> Sandra Choy, Anna Mazzoleni,</b> and <b>Amanda Wormald</b> (DCCEEW, Australia).
 </p>""", unsafe_allow_html=True)
@@ -302,4 +302,5 @@ This dashboard for results visualization and the material herein are provided �
 """, unsafe_allow_html=True)
 
 ########################################
+
 
