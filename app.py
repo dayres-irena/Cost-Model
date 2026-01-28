@@ -48,9 +48,9 @@ Flag_IMAGE="Images/flag.png"
 insert_logo(LOGO_IMAGE)
 
 
-st.markdown("<h3 style='text-align: left;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown("")
-st.markdown("<h3 style='text-align:center;background-color:#0073AB;font-family:Calibri;font-weight: 600;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align:left;background-color:#0073AB;font-family:Calibri;font-weight: 600;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Calibri;color:white'>
 The IRENA Solar PV Manufacturing Cost Tool is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
 <br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
