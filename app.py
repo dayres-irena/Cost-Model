@@ -5,7 +5,7 @@ import base64 #for images
 import plotly.express as px
 import re
 
-st.set_page_config(page_title='Cost Model', layout = 'wide', page_icon = 'Images/logo2.png', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Solar Cost Model', layout = 'wide', page_icon = 'Images/logo2.png', initial_sidebar_state = 'auto')
 def insert_logo(imagePath):
     st.markdown(
         f"""
@@ -257,7 +257,7 @@ st.markdown("""<SPAN class=li>Initial assessment</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("While the exact figures are difficult to provide without specific company details, a general range is used, which we assume to be similar across different countries:")
 st.markdown("""<SPAN class=li>Small to medium-sized manufacturers (under 2-3 GW): USD 10 000 â€“ USD 50 000</SPAN> 
-<SPAN class=li>Large manufacturers (from 3 GW): USD50 000 - USD200 000</SPAN>
+<SPAN class=li>Large manufacturers (from 3 GW): USD 50 000 - USD 200 000</SPAN>
 <SPAN class=li>Ongoing costs: Annual maintenance and re-certification fees can range from USD 5 000 to USD 50 000</SPAN>
 """, unsafe_allow_html=True)
 st.markdown("Based on consultations with ESG certification stakeholders, cost variations across countries are minimal; therefore, the model assumes uniform costs across all selected countries.")
@@ -302,3 +302,4 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
