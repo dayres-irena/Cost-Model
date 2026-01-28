@@ -5,7 +5,7 @@ import base64 #for images
 import plotly.express as px
 import re
 
-st.set_page_config(page_title='Solar Cost Tool', layout = 'wide', page_icon = 'Images/logo2.png', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Solar Cost Tool', layout = 'wide', page_icon = 'Images/logo2.2.png', initial_sidebar_state = 'auto')
 def insert_logo(imagePath):
     st.markdown(
         f"""
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
