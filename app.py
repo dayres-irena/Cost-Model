@@ -285,7 +285,7 @@ The information and data contained herein comes from the analysis supporting the
 <br>Please refer to the report to dig deeper and further explore the analysis conducted, the methodology used, and the default assumptions considered.
 <br><br>
 <b><span style="font-size:1.5rem; font-family: Calibri;">Acknowledgements</span></b><br>
-<SPAN class=li>The work was conducted under the strategic guidance of <b>Norela Constantinescu</b> (Acting Director, Innovation and Technology Centre, IRENA) and <b>Simon Benmarraze</b> (Team Lead, Technology and Infrastructure, IRENA).</SPAN>
+<SPAN class=li>The work was conducted under the strategic guidance of <b>Norela Constantinescu</b> and <b>Simon Benmarraze</b>.</SPAN>
 <SPAN class=li>The core tool development and analysis were conducted by <b>Aakarshan Vaid</b> (IRENA), <b>Alina Gilmanova</b> (IRENA), and <b>Deborah Ayres</b> (IRENA).</SPAN>     
 <SPAN class=li>The visualization dashboard was developed by <b>Rayan Dankar</b> (IRENA).</SPAN>
 <br>IRENA extends its sincere appreciation to the following external experts for their invaluable technical peer review and input: <b>Michael Woodhouse</b> (National Renewable Energy Laboratory - NREL), and<b> Sandra Choy, Anna Mazzoleni,</b> and <b>Amanda Wormald</b> (DCCEEW, Australia).
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided â€
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
