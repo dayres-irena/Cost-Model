@@ -56,7 +56,7 @@ The IRENA Solar PV Supply Chain Cost Tool is a strategic decision-support tool d
 <br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Supply Chain Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
 <br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to calculate the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The tool allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
 <br>The tool is designed to empower policymakers, investors, and industry strategists by enabling them to quantify the impact of policy levers (e.g., tariffs, local content incentives), identify sources of national competitive advantage, and guide strategic investments required to build resilient and diversified solar PV supply chains through 2030.
-<br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>Solar PV Supply Chain Cost Tool Methodology, Results and Analysis.</b></u>
+<br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>Solar PV Supply Chain Cost Tool Methodology, Results and Analysis.</b></u> <a href='https://www.irena.org/Publications/2026/Feb/Solar-PV-Supply-Chain-Cost-Tool-Methodology-results-and-analysis'>here<
 </p>""", unsafe_allow_html=True)
 
 
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided �
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
