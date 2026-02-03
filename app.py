@@ -48,12 +48,12 @@ Flag_IMAGE="Images/flag.png"
 insert_logo(LOGO_IMAGE)
 
 
-st.markdown("<h3 style='text-align: center;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;font-family:Calibri;font-weight: 600;'>IRENA Solar PV Supply Chain Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown("")
-st.markdown("<h3 style='text-align:left;background-color:#0073AB;font-family:Calibri;font-weight: 600;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Manufacturing Cost Tool</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align:left;background-color:#0073AB;font-family:Calibri;font-weight: 600;color:white;padding-left:25px;padding-right:25px;'>About the IRENA Solar PV Supply Chain Cost Tool</h3>", unsafe_allow_html=True)
 st.markdown(f"""<p style='background-color:#0073AB;padding-left:25px;padding-right:25px;padding-bottom:25px;font-family:Calibri;color:white'>
-The IRENA Solar PV Manufacturing Cost Tool is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
-<br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Manufacturing Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
+The IRENA Solar PV Supply Chain Cost Tool is a strategic decision-support tool developed under the Clean Energy Ministerial (CEM): Transforming Solar Supply Chains initiative, with the invaluable support of the Government of Australia and the National Energy Efficiency Action Plan (PANEE), that expand on the commitment and measures included in the Nationally Determined Contributions (NDCs).
+<br>This dashboard is a user-friendly interface providing an accessible way to explore insights quickly and visualize the results from the <u><b>Solar PV Supply Chain Cost Tool</b></u>. It displays outputs based on default data, allowing users to visualise some scenarios and better understand how different factors shape total costs.
 <br>However, for more detailed analysis user is invited to consult the the Excel-based tool, which provides a quantitative framework to calculate the levelized cost of production (LCOP) for solar PV modules (USD/Wp) across the whole value chain, from polysilicon to final module assembly. It covers key global manufacturing markets—including the United States, Germany, China, India, Vietnam, and Australia—and evaluates leading process technologies (monocrystalline PERC and TOPCon). The tool allows users to analyse the cost implications of distinct supply chain configurations, such as scenarios based on domestic production versus imported components. The results presented in the dashboard focus on TOPCon, which is the main technology present in the market.
 <br>The tool is designed to empower policymakers, investors, and industry strategists by enabling them to quantify the impact of policy levers (e.g., tariffs, local content incentives), identify sources of national competitive advantage, and guide strategic investments required to build resilient and diversified solar PV supply chains through 2030.
 <br>For more information on the analysis of the results and policy recommendations, please read the report <u><b>PV Supply Chain Cost Tool Methodology, Results and Analysis.</b></u>
@@ -302,6 +302,7 @@ This dashboard for results visualization and the material herein are provided �
 """, unsafe_allow_html=True)
 
 ########################################
+
 
 
 
